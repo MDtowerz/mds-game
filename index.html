@@ -1,4 +1,3 @@
-
 <!doctype html>
 <!-- ✨ Built with Framer • https://www.framer.com/ -->
 <html lang="en-US">
@@ -101,6 +100,69 @@
   src: url(https://fonts.gstatic.com/s/alumnisans/v18/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd93-hgr1EI.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZJhiI2B.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZthiI2B.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZNhiI2B.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZxhiI2B.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZBhiI2B.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZFhiI2B.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hiA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* latin-ext */
 @font-face {
   font-family: 'Outfit';
@@ -169,19 +231,19 @@
   src: local("Arial");
 }
 @font-face {
-  font-family: "Alumni Sans Placeholder";
-  ascent-override: 134.10%;
-  descent-override: 44.70%;
-  line-gap-override: 0.00%;
-  size-adjust: 67.12%;
-  src: local("Arial");
-}
-@font-face {
   font-family: "Inter Placeholder";
   ascent-override: 90.00%;
   descent-override: 22.43%;
   line-gap-override: 0.00%;
   size-adjust: 107.64%;
+  src: local("Arial");
+}
+@font-face {
+  font-family: "Alumni Sans Placeholder";
+  ascent-override: 134.10%;
+  descent-override: 44.70%;
+  line-gap-override: 0.00%;
+  size-adjust: 67.12%;
   src: local("Arial");
 }
     </style>
@@ -197,7 +259,6 @@
     
     <!-- End of bodyStart -->
     <div id="main"></div>
-
     <script data-framer-appear-animation="no-preference"></script>
     <script type="module" data-framer-bundle>
         import * as React from "react"
@@ -221,7 +282,7 @@
         Framer.installFlexboxGapWorkaroundIfNeeded()
 
         ;(async () => {
-            const routes = {augiA20Il: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/me1M1kdUbM5zDTzDS6Vm/n4FMVpanXYOIJLrsclEq/augiA20Il.js")), path: "/"}, RMshpF4hj: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/j5D4aDiTtyttYmapl3hf/Pg9bijWXeoEPqzPxNhPM/RMshpF4hj.js")), path: "/retro-bowl"}, ImJAsS3eQ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/H866kuhSXgm4nItxLBJQ/IlJPEpBXmtAGrYc9d87h/ImJAsS3eQ.js")), path: "/drive-mad"}, xavQ7NWbJ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/2UwcbcUdKRMEAgi7wTE9/LcUt3IOXi4Cl01hFMVks/xavQ7NWbJ.js")), path: "/bloons-td4"}, UD4Y0Ct_7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/HsusvZQpTNf2gCO3yrUq/A2fkynhvS4YVxpn98pss/UD4Y0Ct_7.js")), path: "/bitlife"}, U41Scq31W: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/KVgr3Z5Y8LWDyiD38whF/cmZayl0PdKNzRn3OF0dW/U41Scq31W.js")), path: "/cluster-truck"}, d_p70CKgU: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/4pEC4ib9AYiKjNDgQ4UW/4CuZ8qPDC3UMR0oEmOxU/d_p70CKgU.js")), path: "/basketball-stars"}, lyDrgJ_Z7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/GCGMCRPX5ZTyhFgGZohw/TfHgNMIYB0OA9FnQxGia/lyDrgJ_Z7.js")), path: "/smash-karts"}, FFIMpuwbz: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/txrUlZAVWLeY6U03DX6h/Ehf5K3RhrShW84X6xjVX/FFIMpuwbz.js")), path: "/duck-life-6"}, zq9V9aYL1: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/aQ78nl84okX8qkgOcq4e/qATwtwzhD2Kjpq06WB8O/zq9V9aYL1.js")), path: "/stickman-duel"}, tY3l8Iil7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/a20fpplo4Hf26GNATmWB/ERN4Rc9BarnnrM546K3J/tY3l8Iil7.js")), path: "/fnf"}, gopE1AMpn: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/aZeHcNlj9yyy8cp2sBIc/DYebmwyqf3OxdHdoRy1y/gopE1AMpn.js")), path: "/tanuki-sunset"}, ONxGs3da_: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/C03D5m8U3MkCDDReLqfQ/ZN1ReuzuEYJSd5BLMjZv/ONxGs3da_.js")), path: "/stickman-hook"}, hcTyd_Yr3: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/G9ewqS5sTgQLEtTDn94o/D9mHDZE34sZR2u6hZq3W/hcTyd_Yr3.js")), path: "/sort-the-court"}, fNfO7ajE8: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/ZC1NFWzgdtTpyAfjelWJ/xU5gTqRIuAEsB5rJrK1O/fNfO7ajE8.js")), path: "/10-mins-till-dawn"}, U7X62sy2u: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/BTlZVtFU34RvRA1CW3q0/uRfclrNZw2i9P5zTrlCu/U7X62sy2u.js")), path: "/among-us"}, fQpeMcZrE: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/dPGlZuEmPi3JODixhejz/gCPqmD8jc4ZdnopzPWjI/fQpeMcZrE.js")), path: "/learn-to-fly-2"}, HVsaq5kny: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/vxJaOhLkvH2zg5AN0uxm/tY8tPfh4SpxXqQGuoemI/HVsaq5kny.js")), path: "/supermario64"}, oQ79AafPp: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/tb42b9i6cEdsefrPcwUc/J4ArUIxgvSwcQN6tHdVg/oQ79AafPp.js")), path: "/drift-hunters"}, Q0mEL231C: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/nDlqernrY1KTdrBNiHhW/WmtDn1ZncYuqlds0YVdX/Q0mEL231C.js")), path: "/super-hot"}, lMd5_bKCg: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/e4RxpsvloQIV44qhpD87/ogEk4VuTtT1m9g9QDinc/lMd5_bKCg.js")), path: "/adventure-capitalist"}, gfQQxJxFQ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/l06w2hSoTnk9USo1u0Ur/GCjiOhvJRGOiWp8mxAAm/gfQQxJxFQ.js")), path: "/1v1lol"}, dPj2yllCE: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/i68bgdpP2EBZn0LCGfxd/TbsSpkErUmkWhk5IV99Y/dPj2yllCE.js")), path: "/tests"}}
+            const routes = {augiA20Il: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/me1M1kdUbM5zDTzDS6Vm/EkO5Vq23I6r6GNzjMSLG/augiA20Il.js")), path: "/"}, RMshpF4hj: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/j5D4aDiTtyttYmapl3hf/Pg9bijWXeoEPqzPxNhPM/RMshpF4hj.js")), path: "/retro-bowl"}, ImJAsS3eQ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/H866kuhSXgm4nItxLBJQ/IlJPEpBXmtAGrYc9d87h/ImJAsS3eQ.js")), path: "/drive-mad"}, xavQ7NWbJ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/2UwcbcUdKRMEAgi7wTE9/LcUt3IOXi4Cl01hFMVks/xavQ7NWbJ.js")), path: "/bloons-td4"}, UD4Y0Ct_7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/HsusvZQpTNf2gCO3yrUq/A2fkynhvS4YVxpn98pss/UD4Y0Ct_7.js")), path: "/bitlife"}, U41Scq31W: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/KVgr3Z5Y8LWDyiD38whF/cmZayl0PdKNzRn3OF0dW/U41Scq31W.js")), path: "/cluster-truck"}, d_p70CKgU: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/4pEC4ib9AYiKjNDgQ4UW/4CuZ8qPDC3UMR0oEmOxU/d_p70CKgU.js")), path: "/basketball-stars"}, lyDrgJ_Z7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/GCGMCRPX5ZTyhFgGZohw/TfHgNMIYB0OA9FnQxGia/lyDrgJ_Z7.js")), path: "/smash-karts"}, FFIMpuwbz: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/txrUlZAVWLeY6U03DX6h/Ehf5K3RhrShW84X6xjVX/FFIMpuwbz.js")), path: "/duck-life-6"}, zq9V9aYL1: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/aQ78nl84okX8qkgOcq4e/qATwtwzhD2Kjpq06WB8O/zq9V9aYL1.js")), path: "/stickman-duel"}, tY3l8Iil7: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/a20fpplo4Hf26GNATmWB/ERN4Rc9BarnnrM546K3J/tY3l8Iil7.js")), path: "/fnf"}, gopE1AMpn: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/aZeHcNlj9yyy8cp2sBIc/DYebmwyqf3OxdHdoRy1y/gopE1AMpn.js")), path: "/tanuki-sunset"}, ONxGs3da_: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/C03D5m8U3MkCDDReLqfQ/ZN1ReuzuEYJSd5BLMjZv/ONxGs3da_.js")), path: "/stickman-hook"}, hcTyd_Yr3: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/G9ewqS5sTgQLEtTDn94o/D9mHDZE34sZR2u6hZq3W/hcTyd_Yr3.js")), path: "/sort-the-court"}, fNfO7ajE8: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/ZC1NFWzgdtTpyAfjelWJ/xU5gTqRIuAEsB5rJrK1O/fNfO7ajE8.js")), path: "/10-mins-till-dawn"}, U7X62sy2u: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/BTlZVtFU34RvRA1CW3q0/uRfclrNZw2i9P5zTrlCu/U7X62sy2u.js")), path: "/among-us"}, fQpeMcZrE: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/dPGlZuEmPi3JODixhejz/gCPqmD8jc4ZdnopzPWjI/fQpeMcZrE.js")), path: "/learn-to-fly-2"}, HVsaq5kny: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/vxJaOhLkvH2zg5AN0uxm/tY8tPfh4SpxXqQGuoemI/HVsaq5kny.js")), path: "/supermario64"}, oQ79AafPp: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/tb42b9i6cEdsefrPcwUc/J4ArUIxgvSwcQN6tHdVg/oQ79AafPp.js")), path: "/drift-hunters"}, Q0mEL231C: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/nDlqernrY1KTdrBNiHhW/WmtDn1ZncYuqlds0YVdX/Q0mEL231C.js")), path: "/super-hot"}, lMd5_bKCg: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/e4RxpsvloQIV44qhpD87/ogEk4VuTtT1m9g9QDinc/lMd5_bKCg.js")), path: "/adventure-capitalist"}, gfQQxJxFQ: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/l06w2hSoTnk9USo1u0Ur/GCjiOhvJRGOiWp8mxAAm/gfQQxJxFQ.js")), path: "/1v1lol"}, dPj2yllCE: {elements: {}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/i68bgdpP2EBZn0LCGfxd/TbsSpkErUmkWhk5IV99Y/dPj2yllCE.js")), path: "/tests"}}
             const locales = [{code: "en-US", id: "default", name: "English", slug: ""}]
             const notFoundPage = Framer.lazy(() => import("__framer-not-found-page"))
             const container = document.getElementById("main")
